@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="content/uploads/images/BeeIcon.png" type="image/x-icon">
+    
+    <title>Gerador Online Grátis de Link para WhatsApp</title>
+    <meta name="description" content="Com esta ferramenta é possível gerar links de WhatsApp com mensagens personalizadas. Permite também iniciar uma conversa no WhatsApp sem ter que salvar o contato primeiro.">
+    <meta property="og:title" content="Gerador online grátis de link para WhatsApp">
+    <meta property="og:description" content="Com esta ferramenta é possível gerar links de WhatsApp com mensagens personalizadas. Permite também iniciar uma conversa no WhatsApp sem ter que salvar o contato primeiro.">
+    <meta property=”og:url” content="">
+    <meta property=”og:image” content="" >
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <section>
+            <a href="index.html" rel="home">
+                <img class="logo" src="content/uploads/images/Gerelink.png" alt="logo gerelink" style="display:flex; margin: auto;margin-bottom: 30px!important;padding:10px;">
+            </a>
+            <h1 class="title" style="text-align: center; font-size: 18px; font-weight: 400;">Gerador de Link para Whatsapp</h1>
+            <form method="POST" action="" class="form-controls" style="text-align: center;" onsubmit="executar(); return false;">
+                <input type="tel" name="celular" id="celular" placeholder="(DDD) 0 0000-0000" required>
+                <input type="text" name="mensagem" id="mensagem" placeholder="Sua Mensagem...">
+                <input type="text" name="link" id="link">
+                <input type="submit" id="btn-link" value="Gerar Link">
+                <p style="font-size: 11px; font-weight: 300; color: #343434; font-family: Roboto;">Não armazenamos nenhum tipo de dado fornecido.</p>
+            </form>
+            <span class="tooltip">copiado para área de transferência</span>
+        </section>
+        <div class="notice"><p>Esta ferramenta serve para criar um link direto para uma conversa no WhatsApp. Permite também iniciar uma conversa no WhatsApp sem ter que salvar o contato primeiro.</p></div>
+        <h1 class="title" style="text-align: center; font-size: 18px; font-weight: 400;margin: 50px auto;max-width: 500px;">Outras Ferramentas</h1>
+        <div class="bottom-container" onclick="redirect()">
+            <img src="https://d2r9epyceweg5n.cloudfront.net/assets/insti/img/tools/ico/qr_code.jpg" alt="qr-code" width="50px">
+            <h1 style="font-size:20px;font-weight: normal;">Gerador de Qr Code</h1>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
