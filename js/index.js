@@ -7,7 +7,6 @@ var title = document.querySelector("h1.title");
 function executar() {
   fieldTelValue = fieldTel.value;
   fieldTelConvert = fieldTelValue.replace(/[(|)|" "|-]/g, "");
-  fieldTelConvert.replace("-", "");
   fieldMsgValue = fieldMsg.value;
   fieldMsgConvert = fieldMsgValue.replace(/[" "|+]/g, "%20");
   linkGenerated = `https://api.whatsapp.com/send?phone=55${fieldTelConvert}&text=${fieldMsgConvert}`;

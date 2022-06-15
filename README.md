@@ -1,3 +1,3 @@
-# Dynamic PHP page - PHP
+# Whatsapp Link Generator - Vanilla JS
 
-Dynamic PHP page using the GET superglobal to display Mcdonalds menugit 
+See running at: [https://marcusduraes.github.io/gerador-link///](https://marcusduraes.github.io/gerador-link/)
